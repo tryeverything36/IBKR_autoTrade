@@ -1,0 +1,8 @@
+ibkr:
+  host: "127.0.0.1"
+  port: 7497  # 7497 for TWS paper trading, 7496 for TWS live, 4002 for Gateway
+  client_id: 0
+
+trading:
+  default_trailing_stop_percentage: 2.0
+  check_interval_seconds: 5
